@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "714b6cf632fbdc6e361dc2a9794225b6",
+    "packages": [
+        {
+            "name": "jossuer/micro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JossueR/micro.git",
+                "reference": "caa7cad1b3ee56c231429f7c01350c92d3d754c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JossueR/micro/zipball/caa7cad1b3ee56c231429f7c01350c92d3d754c9",
+                "reference": "caa7cad1b3ee56c231429f7c01350c92d3d754c9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-simplexml": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micro\\": "src/Micro"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jossue",
+                    "email": "jossue.rodriguez@gmail.com"
+                }
+            ],
+            "description": "Framework básico para crear APIS en php",
+            "support": {
+                "issues": "https://github.com/JossueR/micro/issues",
+                "source": "https://github.com/JossueR/micro/tree/master"
+            },
+            "time": "2021-06-25T18:01:32+00:00"
+        },
+        {
+            "name": "jossuer/micro_orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JossueR/micro_orm.git",
+                "reference": "ff845f6fda6b59bade58b5b6801a47313df66d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JossueR/micro_orm/zipball/ff845f6fda6b59bade58b5b6801a47313df66d4c",
+                "reference": "ff845f6fda6b59bade58b5b6801a47313df66d4c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mysqli": "*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MicroORM\\": "src/MicroORM"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jossue",
+                    "email": "jossue.rodriguez@gmail.com"
+                }
+            ],
+            "description": "ORM sencillo para acceso a bases de datos mysql",
+            "support": {
+                "issues": "https://github.com/JossueR/micro_orm/issues",
+                "source": "https://github.com/JossueR/micro_orm/tree/master"
+            },
+            "time": "2021-06-25T14:26:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "jossuer/micro_orm": 20,
+        "jossuer/micro": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

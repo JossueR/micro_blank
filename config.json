@@ -1,0 +1,15 @@
+{
+  "APP_DEFAULT_HANDLER": "base",
+  "PATH_ROOT": "/micro_blank/public/",
+  "DB": [
+    {
+      "name": "main",
+      "host": "localhost",
+      "user": "root",
+      "pass": "",
+      "db": "db",
+      "timezone": "-5:00",
+      "utf8": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "jossuer/micro_blank",
+    "description": "Estructura básica de un proyecto con micro Framework",
+    "type": "project",
+    "require": {
+        "jossuer/micro_orm": "dev-master",
+        "jossuer/micro": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jossue",
+            "email": "jossue.rodriguez@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "myapp\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
